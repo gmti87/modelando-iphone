@@ -1,4 +1,4 @@
-``` mermaid ```
+``` mermaid 
 
 classDiagram
     class Iphone {
@@ -28,3 +28,5 @@ classDiagram
     Iphone "1" --> "1" ReprodutorMusical : tem
     Iphone "1" --> "1" AparelhoTelefonico : tem
     Iphone "1" --> "1" NavegadorInternet : tem
+
+```
