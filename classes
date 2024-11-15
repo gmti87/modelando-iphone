@@ -1,26 +1,22 @@
-``` mermaid 
-
+```mermaid
 classDiagram
-    class Iphone {
-        +ReprodutorMusical reprodutor
-        +AparelhoTelefonico telefone
-        +NavegadorInternet navegador
-    }
-    
+      Iphone <|-- ReprodutorMusical
+      Iphone <|-- AparelhoTelefonico
+      Iphone <|-- NavegadorInternet
     class ReprodutorMusical {
         +tocar()
         +pausar()
-        +selecionarMusica(musica: String)
+        +selecionarMusica(String: musica)
     }
     
     class AparelhoTelefonico {
-        +ligar(numero: String)
+        +ligar(String: numero)
         +atender()
         +iniciarCorreioVoz()
     }
     
     class NavegadorInternet {
-        +exibirPagina(url: String)
+        +exibirPagina(String: url)
         +adicionarNovaAba()
         +atualizarPagina()
     }
