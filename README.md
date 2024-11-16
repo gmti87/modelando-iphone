@@ -1,3 +1,5 @@
+```
+mermaid
 
 classDiagram
 Class01 <|-- AveryLongClass : Cool
@@ -14,5 +16,6 @@ Class01 : int chimp
 Class01 : int gorilla
 Class08 <--> C2: Cool label
 
+```
 
 Projeto proposto pela Digital Innovation One para completar o Bootcamp Claro Java com Spring Boot
