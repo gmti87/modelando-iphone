@@ -1,4 +1,4 @@
-```
+´´
 mermaid
 
 classDiagram
@@ -28,6 +28,6 @@ Iphone "1" --> "1" ReprodutorMusical : tem
 Iphone "1" --> "1" AparelhoTelefonico : tem
 Iphone "1" --> "1" NavegadorInternet : tem
 
-```
+´´
 
 Projeto proposto pela Digital Innovation One para completar o Bootcamp Claro Java com Spring Boot
