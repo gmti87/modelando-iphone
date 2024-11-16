@@ -1,4 +1,9 @@
-``` 
+```
+------
+config:
+ layout: fixed
+------
+
 mermaid
 
 classDiagram
