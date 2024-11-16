@@ -1,4 +1,5 @@
-```mermaid
+``` mermaid
+class
 graph TD;
     A-->B;
     A-->C;
